@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dasha aqa", "dasha aqa\dasha aqa.csproj", "{9FCF2576-A8E4-4D70-95AF-A740F7D36B1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dasha aqa", "dasha aqa\dasha aqa.csproj", "{9FCF2576-A8E4-4D70-95AF-A740F7D36B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{DCCFEE46-2465-4F9B-847F-0FBB9B154640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9FCF2576-A8E4-4D70-95AF-A740F7D36B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FCF2576-A8E4-4D70-95AF-A740F7D36B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FCF2576-A8E4-4D70-95AF-A740F7D36B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCCFEE46-2465-4F9B-847F-0FBB9B154640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCCFEE46-2465-4F9B-847F-0FBB9B154640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCCFEE46-2465-4F9B-847F-0FBB9B154640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCCFEE46-2465-4F9B-847F-0FBB9B154640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

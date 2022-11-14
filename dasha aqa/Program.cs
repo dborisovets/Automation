@@ -1,6 +1,36 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hi! What's your name?");
-var name = Console.ReadLine();
-Console.WriteLine($"{Environment.NewLine}Nice to meet you, {name}!");
-Console.Write($"{Environment.NewLine}Press any key to exit...");
-Console.ReadKey(true);
+
+using ClassLibrary_Employee;
+
+namespace Company
+{
+    class BaseClass
+    {
+        static void Main()
+        {
+            Employee[] persons = new Employee[4];
+            persons[0] = new Employee("Dasha", "Borisovets", "female", 30, "QA");
+            persons[1] = new Employee("Masha", "Fedorova", "female", 31, "BA");
+
+            persons[2] = new Employee();
+            persons[2].name = "Pasha";
+            persons[2].last_name = "Semashko";
+            persons[2].Gender = "male";
+            persons[2].Age = 32;
+            persons[2].Position = "PM";
+
+            persons[3] = new Employee("Oleg", "Ivanov");
+            persons[3].Age = 40;
+            persons[3].Position = "QA";
+            persons[3].Gender = "male";
+
+            foreach (Employee e in persons)
+            {
+                e.Print_Full_Info();
+            }
+            persons[3].Work();
+
+            persons[2].Print_Short_Info();
+        }
+    }
+}
